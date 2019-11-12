@@ -41,4 +41,8 @@ public class CreateLeadPage extends ProjectSpecificMethods {
 		eleCreateLeadButton.click();
 		return new ViewLeadPage();
 	}
+	
+	public void dummy(){
+		System.out.println("Dummy Method");
+	}
 }
